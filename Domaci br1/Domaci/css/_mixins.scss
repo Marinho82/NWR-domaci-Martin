@@ -1,0 +1,36 @@
+
+
+@mixin button($button-color, $button-width: 150px) {
+    width: $button-width;
+    padding: .7rem 2rem;
+    background-color: $button-color;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: .5rem;
+    border: none;
+    font-size: medium;
+    box-shadow: 2px 3px 4px #c9c4c4;
+
+    &:hover{
+        background-color: darken($color: $button-color, $amount: 10);
+        transition: all .3s;
+    } 
+}
+
+@mixin input {
+    padding: .5rem 1rem;
+    width: 20rem;
+    margin-bottom: .5rem;
+    font-size: medium;
+    font-weight: 300;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+
+@mixin span($span-font-size: medium) {
+    font-size: $span-font-size;
+    font-weight: 300;
+    color: $span-color;
+}

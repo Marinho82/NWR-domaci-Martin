@@ -1,0 +1,147 @@
+.card {
+  background-color: #fff;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-button {
+  padding: 1rem 0px;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card-button-facebook {
+  width: 150px;
+  padding: .7rem 2rem;
+  background-color: royalblue;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: .5rem;
+  border: none;
+  font-size: medium;
+  box-shadow: 2px 3px 4px #c9c4c4;
+}
+
+.card-button-facebook:hover {
+  background-color: #214cce;
+  transition: all .3s;
+}
+
+.card-button-google {
+  width: 150px;
+  padding: .7rem 2rem;
+  background-color: crimson;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: .5rem;
+  border: none;
+  font-size: medium;
+  box-shadow: 2px 3px 4px #c9c4c4;
+}
+
+.card-button-google:hover {
+  background-color: #ad102f;
+  transition: all .3s;
+}
+
+.card-button-login {
+  width: 20rem;
+  padding: .7rem 2rem;
+  background-color: purple;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: .5rem;
+  border: none;
+  font-size: medium;
+  box-shadow: 2px 3px 4px #c9c4c4;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.card-button-login:hover {
+  background-color: #4d004d;
+  transition: all .3s;
+}
+
+.card-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem 0rem;
+  padding-top: 0px;
+}
+
+.card-input-email {
+  padding: .5rem 1rem;
+  width: 20rem;
+  margin-bottom: .5rem;
+  font-size: medium;
+  font-weight: 300;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+}
+
+.card-input-password {
+  padding: .5rem 1rem;
+  width: 20rem;
+  margin-bottom: .5rem;
+  font-size: medium;
+  font-weight: 300;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f3f4f6;
+  padding: 5rem;
+}
+
+body h1 {
+  font-weight: 300;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+}
+
+body .underline {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body .underline span {
+  font-size: medium;
+  font-weight: 300;
+  color: #f3f4f6;
+}
+
+body .footer {
+  display: flex;
+  justify-content: center;
+}
+
+body .footer span {
+  font-size: smaller;
+  font-weight: 300;
+  color: #f3f4f6;
+}
+/*# sourceMappingURL=style.css.map */

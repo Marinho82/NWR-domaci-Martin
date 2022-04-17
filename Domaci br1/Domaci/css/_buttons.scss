@@ -1,0 +1,24 @@
+
+
+.card-button{
+   padding: 1rem 0px; 
+   padding-bottom: 2rem;
+   display: flex;
+   justify-content: center;
+   
+
+   &-facebook{
+        @include button(royalblue);
+   }
+
+   &-google{
+        @include button(crimson);
+    }
+
+    &-login{
+        @include button(purple, 20rem);
+
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+        }    
+}

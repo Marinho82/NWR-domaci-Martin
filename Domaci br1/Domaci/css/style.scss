@@ -1,0 +1,50 @@
+
+@import 'variables';
+@import 'mixins';
+@import 'card';
+@import 'buttons';
+@import 'input';
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: $span-color;
+    padding: 5rem;
+
+    h1{
+        font-weight: 300;
+        color: gray;
+        font-size: 24px; 
+        text-align: center;  
+    }
+
+    .underline{
+        display: flex;
+        justify-content: flex-end;
+
+        span{
+            @include span;   
+        }
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+
+        span{
+            @include span(smaller);   
+        }
+    }
+
+    
+
+
+}
