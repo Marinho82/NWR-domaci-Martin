@@ -37,18 +37,25 @@ zbirOpsega(5,10)
 
 //Zadatak 2
 
-let niz1=[1,2,3,40,45];
-let niz2=[4,5,6,50,55];
+let niz1=[1,2,3,40,80];
+let niz2=[4,5,6,50,100];
 
 function zbirNizova(a,b){
     let noviNiz = [];
     let zbirIndexaNiza = 0;
-    for(i = 0; i<niz1.length; i++){
 
-        zbirIndexaNiza = niz1[i] + niz2[i];
-        noviNiz.push(zbirIndexaNiza);
+    if(niz1.length == niz2.length){
+
+        for(i = 0; i<niz1.length; i++){
+            zbirIndexaNiza = niz1[i] + niz2[i];
+            noviNiz.push(zbirIndexaNiza);
+        }
+        console.log(noviNiz);
+    }else{
+        console.log('Nizovi imaju razlicit broj clanova');
     }
-    console.log(noviNiz);
+
+    
 }
 zbirNizova(niz1,niz2);
 
