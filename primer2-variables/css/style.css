@@ -1,0 +1,17 @@
+body p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+body .text-danger {
+  color: red;
+}
+
+body .text-warn {
+  color: orange;
+}
+
+body .text-info {
+  color: #4176e7;
+}
+/*# sourceMappingURL=style.css.map */
