@@ -1,10 +1,10 @@
 //Primer 1
 
-let prviBroj;
-let drugiBroj;
-let treciBroj;
+let prviBroj = +prompt(`Unesite prvi broj`);
+let drugiBroj = +prompt(`Unesite drugi broj`);
+let treciBroj = +prompt(`Unesite treci broj`);
 
-function pronadjNajveci(prviBroj,drugiBroj,treciBroj){
+function pronadjNajveci(){
     if(prviBroj>drugiBroj && prviBroj>treciBroj){
         console.log(`Najveci broj je ${prviBroj}`);
     }else if(drugiBroj>prviBroj && drugiBroj>treciBroj){
@@ -14,7 +14,7 @@ function pronadjNajveci(prviBroj,drugiBroj,treciBroj){
     }
 }
 
-pronadjNajveci(1,456,95);
+pronadjNajveci();
 
 
 //Primer 2
