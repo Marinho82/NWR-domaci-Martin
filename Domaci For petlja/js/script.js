@@ -11,7 +11,7 @@ function mapirajNiz(){
         noviNiz.push(novaRec)
     }
 
-    if(Array.isArray(noviNiz)==true){
+    if(Array.isArray(noviNiz)){
         console.log(noviNiz);
     }else{
         return (console.log([]));
@@ -28,8 +28,9 @@ function zbirOpsega(start,end){
     for(i=start; i<=end; i++){
         // console.log(i);
         zbir += i;
-        console.log(zbir)
+        
     }
+    console.log(zbir)
 }
 
 zbirOpsega(5,10)
@@ -44,10 +45,10 @@ function zbirNizova(a,b){
     let noviNiz = [];
     let zbirIndexaNiza = 0;
 
-    if(niz1.length == niz2.length){
+    if(a.length == b.length){
 
-        for(i = 0; i<niz1.length; i++){
-            zbirIndexaNiza = niz1[i] + niz2[i];
+        for(i = 0; i<a.length; i++){
+            zbirIndexaNiza = a[i] + b[i];
             noviNiz.push(zbirIndexaNiza);
         }
         console.log(noviNiz);
