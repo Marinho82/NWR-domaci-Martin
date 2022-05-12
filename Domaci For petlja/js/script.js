@@ -38,7 +38,7 @@ zbirOpsega(5,10)
 //Zadatak 2
 
 let niz1=[1,2,3,40,80];
-let niz2=[4,5,6,50,100];
+let niz2=[4,5,6,50,50];
 
 function zbirNizova(a,b){
     let noviNiz = [];
